@@ -77,7 +77,7 @@ Route::get('/find', function(){
 
 Route::get('/findwhere', function(){
 
-	$posts = Post::where('name','sdads')->orderBy('id','desc')->take(3)->get();
+	$posts = Post::where('name','sdadssdasdasds')->orderBy('id','desc')->take(3)->get();
 
 	return $posts;
 });
